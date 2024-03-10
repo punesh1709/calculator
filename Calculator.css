@@ -1,0 +1,51 @@
+body{
+  text-align: center;
+}
+
+#calculator{
+  border: 2px solid black;
+  border-radius: 10px;
+   width: 200px; 
+  background: #000;
+  position: absolute;
+  
+}
+#display{
+  margin: 10px;
+  width: 85%;
+  font-size: 25px;
+}
+
+.button-container{
+/* center */
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.button{
+  color: black ;
+  width: 45px;
+  height: 45px;
+  margin: 3px;
+}
+
+@media (max-width:575px){
+  #calculator{
+    border: 2px solid black;
+    border-radius: 10px;
+     width: 100%; 
+     height: 100%;
+    background: #000;
+    position: absolute;
+    
+  }
+
+ 
+  .button{
+    color: black ;
+    width: 25vw;
+    height: 25vw;
+    margin: 3px;
+  }
+}
